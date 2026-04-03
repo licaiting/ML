@@ -84,10 +84,18 @@ PythonProject2/
 pip install -r requirements.txt
 ```
 
+## 数据集下载
+https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews
+
 ## 运行项目
 
 ```bash
-python main.py
+python main.py  
+```
+或者
+
+```bash
+python main_complete.py
 ```
 
 ## 性能评价指标
