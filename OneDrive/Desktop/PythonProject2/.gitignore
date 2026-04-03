@@ -35,8 +35,12 @@ wheels/
 .ipynb_checkpoints
 
 # 数据文件
+# 忽略原始数据集（太大，不上传）
+data/raw/**/*.txt
+data/processed/**/*.txt
+
+# 忽略其他数据格式
 *.csv
-*.txt
 *.json
 
 # 模型文件
